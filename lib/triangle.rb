@@ -22,8 +22,5 @@ class Triangle
       end
   end 
   class TriangleError < StandardError
-    def message
-      "There are no valid sizes"
-    end
   end
 end
